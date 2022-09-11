@@ -16,9 +16,9 @@ from keras.layers import (BatchNormalization,
                           Conv2D,
                           Input,
                           ReLU)
+from tensorflow.keras.optimizers import Adam
 from keras.losses import BinaryCrossentropy
 from tensorflow.train import Checkpoint
-from keras.optimizers import Adam
 from keras import (Sequential,
                    Model)
 from os.path import join
