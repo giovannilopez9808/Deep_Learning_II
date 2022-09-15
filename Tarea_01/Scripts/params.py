@@ -1,9 +1,8 @@
 def get_params() -> dict:
     params = {
+        "checkpoint path": "../Checkpoint",
         "path data": "../Data",
-        "validation data": "Val",
-        "train data": "Train",
-        "test data": "Test",
+        "log path": "../log",
         "height": 256,
         "width": 256,
     }
